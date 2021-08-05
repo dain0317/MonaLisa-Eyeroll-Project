@@ -1,4 +1,4 @@
-import Main from "./Main";
+import Main from "./Portrait";
 import Eye from "./Eye";
 import WhiteEye from "./WhiteEye";
 import { useEffect, useState } from "react";
@@ -22,13 +22,13 @@ function App() {
     <div className="App">
       <Eye
         className="eye first"
-        left={(mouseLoc.x - 563) / 80 + "px"}
-        top={mouseLoc.y / 50 - 5 + "px"}
+        left={(mouseLoc.x - 563) / 80 + 297 + "px"}
+        top={mouseLoc.y / 50 + 193 + "px"}
       />
       <Eye
         className="eye second"
-        left={(mouseLoc.x - 563) / 80 - 63 + "px"}
-        top={mouseLoc.y / 50 - 5 + "px"}
+        left={(mouseLoc.x - 563) / 80 + 235 + "px"}
+        top={mouseLoc.y / 50 + 193 + "px"}
       />
       <WhiteEye className="white-eye" />
       <Main className="portrait" />
