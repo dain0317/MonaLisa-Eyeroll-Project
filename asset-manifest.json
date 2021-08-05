@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.28f51c22.chunk.css",
-    "main.js": "/static/js/main.de7fc0aa.chunk.js",
-    "main.js.map": "/static/js/main.de7fc0aa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3226635c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3226635c.js.map",
-    "static/js/2.a0d56fff.chunk.js": "/static/js/2.a0d56fff.chunk.js",
-    "static/js/2.a0d56fff.chunk.js.map": "/static/js/2.a0d56fff.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.28f51c22.chunk.css.map": "/static/css/main.28f51c22.chunk.css.map",
-    "static/js/2.a0d56fff.chunk.js.LICENSE.txt": "/static/js/2.a0d56fff.chunk.js.LICENSE.txt",
-    "static/media/bg.4a57b5fc.png": "/static/media/bg.4a57b5fc.png",
-    "static/media/eye.92480520.png": "/static/media/eye.92480520.png",
-    "static/media/pupil-eye.ccabf0f3.png": "/static/media/pupil-eye.ccabf0f3.png"
+    "main.css": "/MonaLisa-Eyeroll-Project/static/css/main.28f51c22.chunk.css",
+    "main.js": "/MonaLisa-Eyeroll-Project/static/js/main.de7fc0aa.chunk.js",
+    "main.js.map": "/MonaLisa-Eyeroll-Project/static/js/main.de7fc0aa.chunk.js.map",
+    "runtime-main.js": "/MonaLisa-Eyeroll-Project/static/js/runtime-main.41e619e2.js",
+    "runtime-main.js.map": "/MonaLisa-Eyeroll-Project/static/js/runtime-main.41e619e2.js.map",
+    "static/js/2.a0d56fff.chunk.js": "/MonaLisa-Eyeroll-Project/static/js/2.a0d56fff.chunk.js",
+    "static/js/2.a0d56fff.chunk.js.map": "/MonaLisa-Eyeroll-Project/static/js/2.a0d56fff.chunk.js.map",
+    "index.html": "/MonaLisa-Eyeroll-Project/index.html",
+    "static/css/main.28f51c22.chunk.css.map": "/MonaLisa-Eyeroll-Project/static/css/main.28f51c22.chunk.css.map",
+    "static/js/2.a0d56fff.chunk.js.LICENSE.txt": "/MonaLisa-Eyeroll-Project/static/js/2.a0d56fff.chunk.js.LICENSE.txt",
+    "static/media/bg.4a57b5fc.png": "/MonaLisa-Eyeroll-Project/static/media/bg.4a57b5fc.png",
+    "static/media/eye.92480520.png": "/MonaLisa-Eyeroll-Project/static/media/eye.92480520.png",
+    "static/media/pupil-eye.ccabf0f3.png": "/MonaLisa-Eyeroll-Project/static/media/pupil-eye.ccabf0f3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3226635c.js",
+    "static/js/runtime-main.41e619e2.js",
     "static/js/2.a0d56fff.chunk.js",
     "static/css/main.28f51c22.chunk.css",
     "static/js/main.de7fc0aa.chunk.js"
