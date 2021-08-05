@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}.portrait{z-index:5;left:0}.eye,.portrait{position:absolute}.eye{z-index:3;transition:all .5s ease-out;width:17px}.eye.first{left:0}.eye.second{left:-62px}.white-eye{width:600px;position:absolute;left:0;z-index:0}
+/*# sourceMappingURL=main.6d991e50.chunk.css.map */
