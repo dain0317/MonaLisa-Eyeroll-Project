@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./Main";
+import Eye from "./Eye";
+import WhiteEye from "./WhiteEye";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [mouseLoc, setMouseLoc] = useState({
+    x: 0,
+    y: 0,
+  });
+
+  useEffect(() => {
+    window.addEventListener("mousemove", ({ x, y }) => {
+      setMouseLoc({
+        x,
+        y,
+      });
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Eye
+        className="eye first"
+        left={(mouseLoc.x - 563) / 80 + "px"}
+        top={mouseLoc.y / 50 - 5 + "px"}
+      />
+      <Eye
+        className="eye second"
+        left={(mouseLoc.x - 563) / 80 - 63 + "px"}
+        top={mouseLoc.y / 50 - 5 + "px"}
+      />
+      <WhiteEye className="white-eye" />
+      <Main className="portrait" />
     </div>
   );
 }
